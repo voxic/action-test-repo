@@ -15,7 +15,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: action/voxic/github-actions-test
+      uses: voxic/github-actions-test:v3
       with:
         who-to-greet: 'Emil'
     # Use the output from the `hello` step
